@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 15px 60px;
+  background-image: url("../../images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+}
+.heroTitle {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+.heroText {
+  padding: 15px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.accent {
+  font-weight: 900;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.lead {
+  padding: 45px 0 0;
+}
+.leadTitle {
+  margin: 0 0 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.leadList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.leadItem {
+  padding: 0 0 0 1em;
+  text-indent: -1em;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.leadItem:before {
+  content: "-";
+  padding-right: 5px;
+}
