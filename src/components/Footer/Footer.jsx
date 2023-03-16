@@ -20,33 +20,33 @@ const Footer = () => {
       </div>
       <div className={cl.footerBlock}>
         <h2>Меню</h2>
-        <ul>
+        <ul className={cl.twoColumns}>
           <li>
             <a href="/">Расчёт стоимости</a>
-          </li>
-          <li>
-            <a href="/">Услуги</a>
-          </li>
-          <li>
-            <a href="/">Виджеты</a>
-          </li>
-          <li>
-            <a href="/">Интеграции</a>
-          </li>
-          <li>
-            <a href="/">Наши клиенты</a>
           </li>
           <li>
             <a href="/">Благодарность клиентов</a>
           </li>
           <li>
+            <a href="/">Услуги</a>
+          </li>
+          <li>
             <a href="/">Кейсы</a>
+          </li>
+          <li>
+            <a href="/">Виджеты</a>
           </li>
           <li>
             <a href="/">Сертификаты</a>
           </li>
           <li>
+            <a href="/">Интеграции</a>
+          </li>
+          <li>
             <a href="/">Блог на Youtube</a>
+          </li>
+          <li>
+            <a href="/">Наши клиенты</a>
           </li>
           <li>
             <a href="/">Вопрос / Ответ</a>
@@ -56,7 +56,7 @@ const Footer = () => {
       <div className={cl.footerBlock}>
         <h2>Контакты</h2>
         <ul>
-          <li>+7 555 555-55-55</li>
+          <li className={cl.phone}>+7 555 555-55-55</li>
           <li>
             <div>
               <a href="/">

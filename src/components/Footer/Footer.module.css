@@ -3,6 +3,7 @@ footer {
 }
 
 h2 {
+  margin: 0 0 20px;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -16,9 +17,36 @@ ul {
   list-style: none;
 }
 
+.twoColumns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.twoColumns li {
+  width: 125px;
+}
+
+li {
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.phone {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 a {
   color: #e4e5ea;
   text-decoration: none;
+}
+
+img {
+  width: 20px;
+  margin: 0 14px 0 0;
 }
 
 .footerBlock {
@@ -26,4 +54,10 @@ a {
 }
 .copyright {
   padding: 50px 0 0 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.copyright a {
+  text-decoration: underline;
 }

@@ -20,14 +20,6 @@
   font-size: 18px;
   line-height: 22px;
 }
-.accent {
-  font-weight: 900;
-  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
 .lead {
   padding: 45px 0 0;
 }
@@ -36,6 +28,16 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  text-transform: none;
+  color: #e4e5ea;
+}
+.accent {
+  font-weight: 900;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .leadList {
   margin: 0;
@@ -45,7 +47,10 @@
   flex-wrap: wrap;
   gap: 14px;
 }
-.leadItem {
+.leadItemPC {
+  display: none;
+}
+.leadItemMob {
   padding: 0 0 0 1em;
   text-indent: -1em;
   font-weight: 400;
@@ -55,7 +60,83 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-.leadItem:before {
-  content: "-";
+.leadItemMob:before {
+  content: "—";
   padding-right: 5px;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+button {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .main {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .heroTitle {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .heroTitle .accent {
+    display: block;
+  }
+  .heroText {
+    padding: 30px 0 0;
+    max-width: 275px;
+  }
+  .lead {
+    padding: 15px 0 0;
+    text-align: right;
+  }
+  .leadTitle {
+    margin: 0 0 40px;
+  }
+  .accent {
+    font-weight: 900;
+    background: linear-gradient(92deg, #fcb045 27.14%, #fd1d1d 121.36%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .leadList {
+    justify-content: flex-end;
+  }
+  .leadItemMob {
+    display: none;
+  }
+  .leadItemPC {
+    display: block;
+    max-width: 140px;
+  }
+  .leadItemPC h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .leadItemPC p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  button {
+    display: block;
+    float: right;
+    margin: 60px 0 0;
+    width: 260px;
+    height: 60px;
+    background: #4077f3;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #e4e5ea;
+  }
 }

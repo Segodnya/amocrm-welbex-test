@@ -15,11 +15,28 @@ const Main = () => {
           Вместе с <span className={cl.accent}>бесплатной консультацией</span> мы дарим:
         </h2>
         <ul className={cl.leadList}>
-          <li className={cl.leadItem}>Skype аудит</li>
-          <li className={cl.leadItem}>Dashboard</li>
-          <li className={cl.leadItem}>30 виджетов</li>
-          <li className={cl.leadItem}>Месяц аmoCRM</li>
+          <li className={cl.leadItemMob}>Skype аудит</li>
+          <li className={cl.leadItemMob}>Dashboard</li>
+          <li className={cl.leadItemMob}>30 виджетов</li>
+          <li className={cl.leadItemMob}>Месяц аmoCRM</li>
+          <li className={cl.leadItemPC}>
+            <h3>Виджеты</h3>
+            <p>30 готовых решений</p>
+          </li>
+          <li className={cl.leadItemPC}>
+            <h3>Dashboard</h3>
+            <p>с показателями вашего бизнеса</p>
+          </li>
+          <li className={cl.leadItemPC}>
+            <h3>Skype Аудит</h3>
+            <p>отдела продаж и&nbsp;CRM системы</p>
+          </li>
+          <li className={cl.leadItemPC}>
+            <h3>35 дней</h3>
+            <p>использования CRM</p>
+          </li>
         </ul>
+        <button>Получить консультацию</button>
       </div>
     </main>
   );
