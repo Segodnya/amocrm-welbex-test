@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://segodnya.github.io/amocrm-welbex-test/
 
+## Figma
+
+https://www.figma.com/file/ja6QtJ9gv2JuxSDIAClL1O/Welbex?node-id=0%3A1&t=qPhkplVBGdRLA4h2-1
+
 ## Available Scripts
 
 In the project directory, you can run:
