@@ -53,29 +53,31 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className={cl.footerBlock}>
-        <h2>Контакты</h2>
-        <ul>
-          <li className={cl.phone}>+7 555 555-55-55</li>
-          <li>
-            <div>
-              <a href="/">
-                <img src={tg} alt="telegram icon" />
-              </a>
-              <a href="/">
-                <img src={phone} alt="phone icon" />
-              </a>
-              <a href="/">
-                <img src={wa} alt="wa icon" />
-              </a>
-            </div>
-          </li>
-          <li>Москва, Путевой проезд 3с1, к 902</li>
-        </ul>
-      </div>
-      <div className={cl.copyright}>
-        <p>©WELBEX 2022. Все права защищены.</p>
-        <a href="/">Политика конфиденциальности</a>
+      <div className={cl.footerCol}>
+        <div className={cl.footerBlock}>
+          <h2>Контакты</h2>
+          <ul>
+            <li className={cl.phone}>+7 555 555-55-55</li>
+            <li>
+              <div>
+                <a href="/">
+                  <img src={tg} alt="telegram icon" />
+                </a>
+                <a href="/">
+                  <img src={phone} alt="phone icon" />
+                </a>
+                <a href="/">
+                  <img src={wa} alt="wa icon" />
+                </a>
+              </div>
+            </li>
+            <li>Москва, Путевой проезд 3с1, к 902</li>
+          </ul>
+        </div>
+        <div className={cl.copyright}>
+          <p>©WELBEX 2022. Все права защищены.</p>
+          <a href="/">Политика конфиденциальности</a>
+        </div>
       </div>
     </footer>
   );

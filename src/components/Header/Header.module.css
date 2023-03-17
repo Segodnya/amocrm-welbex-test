@@ -1,9 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+
+.logoDiv {
+  display: none;
+}
+.contacts {
+  display: none;
+}
+
 .links {
   margin: 0;
   padding: 15px;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+}
+.links li:last-of-type {
+  display: none;
 }
 .link {
   color: #e4e5ea;
@@ -12,4 +24,72 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 19px;
+}
+
+@media (min-width: 700px) {
+  header {
+    padding: 60px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .logoDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoMain {
+    display: flex;
+    align-items: center;
+  }
+  .logoImg {
+    width: 35px;
+    height: 24px;
+  }
+  .logoImgText {
+    width: 96px;
+    height: 14px;
+  }
+  .logoDescText {
+    margin-top: 10px;
+    max-width: 150px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #e4e5ea;
+  }
+  .links {
+    padding: 0 0 0 0;
+    gap: 30px;
+  }
+  .links li:last-of-type {
+    display: inherit;
+  }
+  .link {
+    color: #e4e5ea;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    align-items: center;
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
+  .social {
+    display: block;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    width: 17px;
+  }
 }

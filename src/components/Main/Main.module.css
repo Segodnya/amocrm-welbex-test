@@ -7,8 +7,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero {
-}
 .heroTitle {
   font-weight: 400;
   font-size: 36px;
@@ -37,7 +35,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 .leadList {
   margin: 0;
@@ -67,7 +64,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 button {
   display: none;
@@ -76,7 +72,12 @@ button {
 @media (min-width: 700px) {
   .main {
     flex-direction: row;
+    justify-content: space-between;
     gap: 10px;
+    background-image: none;
+  }
+  .hero {
+    max-width: 360px;
   }
   .heroTitle {
     font-size: 48px;
@@ -90,6 +91,7 @@ button {
     max-width: 275px;
   }
   .lead {
+    max-width: 360px;
     padding: 15px 0 0;
     text-align: right;
   }
@@ -102,7 +104,6 @@ button {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
   }
   .leadList {
     justify-content: flex-end;

@@ -9,6 +9,11 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <div className="ballPurple"></div>
+      <div className="ballRedL"></div>
+      <div className="ballRedS"></div>
+      <div className="lightPurple"></div>
+      <div className="lightRed"></div>
     </div>
   );
 }
