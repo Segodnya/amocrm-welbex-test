@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/amocrm-welbex-test/static/css/main.fe6025bf.css",
+    "main.js": "/amocrm-welbex-test/static/js/main.1c9bb32f.js",
+    "static/js/787.7f698a9a.chunk.js": "/amocrm-welbex-test/static/js/787.7f698a9a.chunk.js",
+    "static/media/bg.png": "/amocrm-welbex-test/static/media/bg.ac126f9b7d3db6bb0375.png",
+    "static/media/welbex.svg": "/amocrm-welbex-test/static/media/welbex.b868aa258aeef44f83767fa10208a23c.svg",
+    "static/media/wa.svg": "/amocrm-welbex-test/static/media/wa.42088da2e5cdc5ef68593c4fe16e0bc3.svg",
+    "static/media/phone.svg": "/amocrm-welbex-test/static/media/phone.d2aa006e8c64149368de21550199dbdd.svg",
+    "static/media/logo.svg": "/amocrm-welbex-test/static/media/logo.a60185b2a955d7a8ed3850ac6d004388.svg",
+    "index.html": "/amocrm-welbex-test/index.html",
+    "static/media/tg.svg": "/amocrm-welbex-test/static/media/tg.b2afac6e3c94eec4775ef51d51af41f9.svg",
+    "main.fe6025bf.css.map": "/amocrm-welbex-test/static/css/main.fe6025bf.css.map",
+    "main.1c9bb32f.js.map": "/amocrm-welbex-test/static/js/main.1c9bb32f.js.map",
+    "787.7f698a9a.chunk.js.map": "/amocrm-welbex-test/static/js/787.7f698a9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe6025bf.css",
+    "static/js/main.1c9bb32f.js"
+  ]
+}
